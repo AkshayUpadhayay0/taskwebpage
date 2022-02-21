@@ -1,0 +1,235 @@
+/* Navbar css start */
+.navbar{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: #F9F9F9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 6px #8181813D;
+    opacity: 1;
+}
+.nav-item{
+    margin-right: 15px;
+}
+.nav-item a{
+    color: #364C54;
+    font-weight: bolder;
+}
+.nav-item a:hover{
+    color: #364C54;
+    font-weight: bolder;
+}
+.nav-btn{
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    background-color: #08B26F ;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 800px) {
+    .navbar-brand{
+        
+        width: 30%;
+    }
+    .single-box a:hover:not(.active){
+      background-color: #ebf5f1;
+      height: 40px;
+      border-radius: 21px;
+      color: #364C54;
+    }
+}
+/* navbar css end */
+
+  #slider .col-md-8{
+    /* margin-top: 30px; */
+    left: 204px;
+    width: 100%;
+    height: 90px;
+    background: #364C54 0% 0% no-repeat padding-box;
+    border-radius: 21px;
+    opacity: 1;
+  }
+
+  
+  .single-box {
+    text-align: center;
+    overflow: hidden;
+    margin: 0px;
+  }
+
+  .single-box a{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9F9F9;
+    letter-spacing: 0;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  .single-box a:hover:not(.active){
+    background-color: #ebf5f1;
+    height: 40px;
+    border-radius: 21px;
+    color: #364C54;
+  }
+
+  
+.owl-nav {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px -4px;
+    left: -1%;
+  }
+  
+  .owl-nav button.owl-prev {
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background: #b5c7c3 !important;
+    border-radius: 50px !important;
+    display: flex;
+  }
+  
+  .owl-nav button.owl-next {
+    width: 30px;
+    height: 30px;
+    background: #b5c7c3 !important;
+    border-radius: 50px !important;
+    position: relative;
+    left: 28px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  .owl-next span, .owl-prev span {
+    font-size: 27px;
+    color: #ffff;
+  }
+  
+  
+  @media only screen and (max-width: 850px) {
+    .nav-list {
+      margin-top: 30px;
+      padding: 0px;
+    }
+    
+  }
+
+
+.solar{
+    margin-top: 20px;
+}  
+.solartxt h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    /* font-size: 39px; */
+    color: #364C54;
+    margin-top: 20px;
+    transform: Titlecase;
+}
+.solartxt p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: regular;
+    /* font-size: 26px; */
+    color: #364C54;
+    transform: Titlecase;
+}
+.solarimg img{
+    top: 313px;
+    left: 252px;
+    width: 100%;
+    height: 390px;
+    /* background: transparent url('img/Image 1.png') 0% 0% no-repeat padding-box; */
+    box-shadow: 7px 10px 26px #01241626;
+    border-radius: 23px;
+    opacity: 1;
+
+}
+
+.solar a{
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+    color: #08B26F;
+    line-gap-override: 29;
+}
+
+.grid{
+    top: 762px;
+    left: 325px;
+    width: 100%;
+    height: 284px;
+    opacity: 1;
+}
+.card{
+    border: none;
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    background: #EBF5F1;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+.card-title{
+    font-family: Calibri;
+    font-weight: bold;
+    color: #364C54;
+    line-gap-override: 35;
+}
+.card-text{
+    font-family: Calibri;
+    font-weight: lighter;
+    color: #364C54;
+    
+}
+
+/* modal */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
